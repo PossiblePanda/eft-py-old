@@ -8,6 +8,8 @@ EFT allows the developers, and the users to create themes very easily for GUI ap
 
 ## How do I use EFT?
 
+Here's how to get started with using EFT!
+
 ### Creating a theme
 
 Creating a theme is simple! You just need to supply the name of the theme, and then any fields that you want!

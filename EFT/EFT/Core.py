@@ -149,16 +149,16 @@ class Theme:
         """
         return _GetFileContents(self.path)
 
-    def GetColor(self, key: str) -> Color:
+    def GetColor(self, key: str) -> ColorField:
         """
         Gets the color from the name of a color in the file.
 
         Returns:
-            str: The color in hex format in the theme
+            Color: The color in hex format in the theme
         """
         for i in range(len(_GetFileContents(self.path))):
             if _IsColorField(i + 1, self.path):
                 field = GetFieldFromLine(i + 1, self.path)
                 if field.GetFieldName() == key:
-                    color = Color.Color(field.GetColor())
+                    color = Color.ColorField(field.GetColor())
                     return color

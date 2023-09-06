@@ -1,2 +1,3 @@
-from EFT.EFT import Core
-from EFT.EFT import Color
+import EFT.EFT.Core
+from EFT.EFT.Color import ColorField
+from EFT.EFT.Core import Theme

@@ -1,7 +1,7 @@
 import re
 
 
-class Color:
+class ColorField:
     def __init__(self, color: str):
         hex_pattern = r"#(?:[A-Fa-f0-9]{3}){1,2}\b"
         rgb_pattern = r"^(?:\d{1,2}|1\d{2}|2[0-4]\d|25[0-5])(?:,\s?(?:\d{1,2}|1\d{2}|2[0-4]\d|25[0-5])){2}$"
