@@ -149,7 +149,7 @@ class Theme:
         """
         return _GetFileContents(self.path)
 
-    def GetColor(self, key: str) -> ColorField:
+    def GetColor(self, key: str) -> Color.ColorValue:
         """
         Gets the color from the name of a color in the file.
 
@@ -160,5 +160,5 @@ class Theme:
             if _IsColorField(i + 1, self.path):
                 field = GetFieldFromLine(i + 1, self.path)
                 if field.GetFieldName() == key:
-                    color = Color.ColorField(field.GetColor())
+                    color = Color.ColorValue(field.GetColor())
                     return color

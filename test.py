@@ -1,7 +1,6 @@
-import EFT
+from EFT.EFT import *
+theme = Theme("test_theme.eft")
 
-Theme = EFT.Theme("test_theme.eft")
+print(theme.GetTitle())
 
-print(Theme.GetTitle())
-
-print(Theme.GetColor("Secondary").GetRGB())
+print(theme.GetColor("Secondary"))
