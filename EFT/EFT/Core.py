@@ -1,4 +1,4 @@
-import Color
+from EFT.EFT import Color
 
 def _GetFileContents(path: str) -> list[str]:
     """
@@ -123,7 +123,7 @@ class Theme:
     def __init__(self, path):
         self.path = path
         self.lines = _GetFileContents(path)
-        GetFieldFromLine(3, "../../test_theme.eft")
+        GetFieldFromLine(3, "test_theme.eft")
 
     def GetTitle(self) -> str:
         """
