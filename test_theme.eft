@@ -1,0 +1,6 @@
+- Testing Theme
+
+Primary: 255,255,255 : Color
+Secondary: #000000 : Color
+TitleFont: roboto.ttf : Font
+HomeIcon: home.png: Image
