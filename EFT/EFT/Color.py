@@ -1,5 +1,6 @@
 import re
 
+
 class ColorValue:
     def __init__(self, color: str):
         hex_pattern = r"#(?:[A-Fa-f0-9]{3}){1,2}\b"

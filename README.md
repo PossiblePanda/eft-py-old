@@ -16,10 +16,11 @@ Creating a theme is simple! You just need to supply the name of the theme, and t
 ```eft
 - Theme Name
 
-Primary: #fc7b2b : Color// Comments!!
+Primary: #fc7b2b : Color
 Background: 255,255,255 : Color
 MainFont: roboto.ttf : Font
-HomeImage: home.png : Image
+HomeIcon: home.png : Image
 
 FontSize: 16 : Int
+Title: My Title : String
 ```
