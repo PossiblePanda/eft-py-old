@@ -1,7 +1,7 @@
 - Testing Theme
 
 Primary: #fc7b2b : Color
-Background: 255,255,255 : Color
+Background: 0,0,0 : Color
 MainFont: roboto.ttf : Font
 HomeIcon: home.png : Image
 
