@@ -4,7 +4,7 @@ import os
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
+with codecs.open(os.path.join(here, "../../README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 VERSION = '1.0.0'
@@ -13,9 +13,9 @@ LONG_DESCRIPTION = 'A package that allows easy creation of GUI themes for your a
 
 # Setting up
 setup(
-    name="possiblepanda",
+    name="EFT-py",
     version=VERSION,
-    author="NeuralNine (Florian Dedov)",
+    author="Possible Panda",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
@@ -24,7 +24,7 @@ setup(
     keywords=['python', 'theme', 'gui', 'gui theme', 'python theme', 'gui application'],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
-        "Intended Audience :: Developers, ",
+        "Intended Audience :: Developers",
         "Intended Audience :: End Users/Desktop",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",

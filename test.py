@@ -1,4 +1,5 @@
-from EFT.EFT import *
+from EFT.EFT import Theme
+
 theme = Theme("Examples/Simple GUI/test_theme.eft")
 
 print(theme.GetTitle())
