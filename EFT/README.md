@@ -33,3 +33,11 @@ HomeIcon: home.png : Image
 FontSize: 16 : Int
 Title: My Title : String
 ```
+
+### Implementing themes
+It's super easy to implement themes into your application, with just two lines of code you can grab a color, or any other property from the file!
+```py
+theme = Theme("my_theme.eft")
+
+Theme.GetColor("Primary").GetHex() # Returns a string containing the hex representation of the color
+```
