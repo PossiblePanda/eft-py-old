@@ -1,6 +1,6 @@
-from EFT.EFT import Color
-from EFT.EFT import Font
-from EFT.EFT import Image
+from EFT import Color
+from EFT import Font
+from EFT import Image
 
 
 def _GetFileContents(path: str) -> list[str]:

@@ -4,10 +4,10 @@ import os
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, "../../README.md"), encoding="utf-8") as fh:
+with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '1.0.0'
+VERSION = '1.4'
 DESCRIPTION = 'A package to easily create GUI themes.'
 LONG_DESCRIPTION = 'A package that allows easy creation of GUI themes for your application.'
 
@@ -23,7 +23,7 @@ setup(
     install_requires=[],
     keywords=['python', 'theme', 'gui', 'gui theme', 'python theme', 'gui application'],
     classifiers=[
-        "Development Status :: 2 - Pre-Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Intended Audience :: End Users/Desktop",
         "Programming Language :: Python :: 3",

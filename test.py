@@ -1,4 +1,4 @@
-from EFT.EFT import Theme
+from EFT import Theme
 
 theme = Theme("Examples/Simple GUI/test_theme.eft")
 

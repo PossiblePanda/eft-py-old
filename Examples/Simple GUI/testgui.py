@@ -1,7 +1,7 @@
 import customtkinter as ctk
 import tkinter as tk
 from tkinter import ttk
-from EFT.EFT import *
+from EFT import *
 from PIL import Image
 
 # theme
