@@ -35,3 +35,6 @@ class ColorValue:
 
     def __str__(self) -> str:
         return self.GetHex()
+
+    def __repr__(self) -> str:
+        return self.GetHex()
